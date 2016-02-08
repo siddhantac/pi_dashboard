@@ -1,0 +1,23 @@
+<% content_for :title do %>My super sweet dashboard<% end %>
+<div class="gridster">
+  <ul>
+
+    <li data-row="1" data-col="1" data-sizex="3" data-sizey="2">
+      <div data-id="synergy" data-view="Number" data-title="Download!"  data-moreinfo="temperature" data-suffix=" C"></div>
+    </li>
+
+
+    <li data-row="1" data-col="1" data-sizex="3" data-sizey="2">
+      <div data-id="convergence" data-view="Number" data-title="TV Shows" data-moreinfo="In billions" data-prefix=""></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="3" data-sizey="6">
+	<div data-id="tvshow_list" data-view="List" data-unordered="true" data-title="TV Series" data-moreinfo="available shows"></div>
+    </li>
+<% if false %>
+   <li data-row="2" data-col="1" data-sizex="2" data-sizey="2">
+       <div data-id="clock" data-view="Clock" data-title="Time" 
+<% end %>
+  </ul>
+  <center><div style="font-size: 12px">Hello!</div></center>
+</div>

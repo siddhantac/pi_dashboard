@@ -1,0 +1,113 @@
+<style>
+.icon-background {
+	font-size: 120px;
+	opacity: 0.2;
+	margin-top: 20px;
+}
+
+.icon-background.big {
+	margin: 40px 20px 0px 0px;
+	font-size: 130px;
+	opacity: 0.2;
+}
+
+.row-margin-top {
+	margin-top: 70px;
+}
+
+.servers {
+	background-color: #FF7043;
+}
+</style>
+
+
+<head>
+<link rel="stylesheet" type="text/css" href="materialize.css">
+<link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+
+<% content_for :title do %>Sid's Pi!<% end %>
+
+<div class="gridster">
+  <ul>
+
+	<li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+	  <div class="card" data-id="pistatus" data-view="Text" data-title="Pi" data-text="unknown" style="background-color: #283593;"></div>
+	<i class="fa fa-user icon-background"></i>
+       </li>
+
+	<li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+	<div class="servers card" data-id="nginxstatus" data-view="Text" data-title="Nginx"  data-text="unknown" ></div>
+	<i class ="fa fa-server icon-background"></i>
+	</li>
+
+	<li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+	<div class="servers card" data-id="srstatus" data-view="Text" data-title="Sickrage" data-text="unknown" ></div>
+	<i class="fa fa-television icon-background"></i>
+	</li>
+
+	<li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+	<div class="servers card" data-id="txrstatus" data-view="Text" data-title="Transmission" data-text="unknown" ></div>
+	<i class="fa fa-arrow-circle-down icon-background"></i>
+	</li>
+
+	<li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+	<div class="servers card" data-id="sambastatus" data-view="Text" data-title="Samba" data-text="unknown"></div>
+	<i class="fa fa-folder-open icon-background"></i>
+	</li>
+
+	<li data-row="2" data-col="1" data-sizex="3" data-sizey="1">
+	 <div  class="card" data-id="temperature" data-view="Meter" data-title="Temperature" data-min="0" data-max="100" data-moreinfo="celsius"></div>	
+	</li>
+
+	<li data-row="2" data-col="4" data-sizex="4" data-sizey="1">
+	<div class="card" data-id="serverload" data-view="Graph" data-title="Load (1 min)" style="background-color: #ff9618;"></div>
+	</li>
+
+
+
+	<li data-row="2" data-col="8" data-sizex="3" data-sizey="1">
+	 <div class="card" data-id="memory" data-view="Meter" data-title="Memory" data-min="0"  data-max="862" data-moreinfo="MB used out of 862MB"></div>	
+	</li>
+
+
+
+
+    <li data-row="3" data-col="2" data-sizex="2" data-sizey="1" class="row-margin-top">
+      <div class="card" data-id="tvshows" data-view="Number" data-title="TV Shows"></div>
+	<i class="fa fa-hashtag icon-background big"></i>
+    </li>
+
+
+    <li data-row="3" data-col="4" data-sizex="2" data-sizey="1" class="row-margin-top">
+      <div class="card" data-id="movies" data-view="Number" data-title="Movies"></div>
+	<i class="fa fa-video-camera icon-background big"></i>
+    </li>
+
+
+    <li data-row="3" data-col="6" data-sizex="2" data-sizey="1" class="row-margin-top">
+      <div class="card" data-id="downloading" data-view="Number" data-title="Downloading"></div>
+	<i class="fa fa-arrow-down icon-background big"></i>
+    </li>
+
+    <li data-row="3" data-col="8" data-sizex="2" data-sizey="1" class="row-margin-top">
+      <div class="card" data-id="completed" data-view="Number" data-title="Completed"></div>
+	<i class="fa fa-check icon-background big"></i>
+    </li>
+
+<% if false %>
+
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="synergy" data-view="Meter" data-title="Temperature" data-min="0" data-max="100"  data-moreinfo="in celsius"></div>
+	<i class="icon-heart-o icon-background"></i>
+    </li>
+
+
+    <li data-row="1" data-col="1" data-sizex="3" data-sizey="6">
+	<div data-id="tvshow_list" data-view="List" data-unordered="true" data-title="TV Series" data-moreinfo="available shows"></div>
+    </li>
+   <li data-row="2" data-col="1" data-sizex="2" data-sizey="2">
+       <div data-id="clock" data-view="Clock" data-title="Time" 
+<% end %>
+  </ul>
+</div>

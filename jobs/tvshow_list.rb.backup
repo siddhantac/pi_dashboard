@@ -1,0 +1,10 @@
+SCHEDULER.every '2s' do
+
+
+   list1 = ['a', 'aa', 'bb']
+   list3 = ['3','1','2']
+   list2 = [ label: list1, value: list3 ]
+
+   send_event('tvshow_list', { items: list2 })
+end
+

@@ -1,0 +1,16 @@
+points = []
+(1..10).each do |i|
+	points << {x: i, y: 100}
+end
+
+last_x = points.last[:x]
+
+SCHEDULER.every '6s' do
+	
+	temp = `/home/pi/Desktop/dashing/proj2/jobs/temperature.sh`
+	points.shift
+	last_x += 1
+	points << {x: last_x, y: temp.to_f}
+
+	send_event('temperature', points: points )
+end

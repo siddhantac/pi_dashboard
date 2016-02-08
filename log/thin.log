@@ -1,0 +1,81 @@
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+Exiting!
+/var/lib/gems/1.9.1/gems/eventmachine-1.0.8/lib/eventmachine.rb:534:in `start_tcp_server': no acceptor (port is in use or requires root privileges) (RuntimeError)
+	from /var/lib/gems/1.9.1/gems/eventmachine-1.0.8/lib/eventmachine.rb:534:in `start_server'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/lib/thin/backends/tcp_server.rb:16:in `connect'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/lib/thin/backends/base.rb:63:in `block in start'
+	from /var/lib/gems/1.9.1/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `call'
+	from /var/lib/gems/1.9.1/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'
+	from /var/lib/gems/1.9.1/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/lib/thin/backends/base.rb:73:in `start'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/lib/thin/server.rb:162:in `start'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/lib/thin/controllers/controller.rb:87:in `start'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/lib/thin/runner.rb:200:in `run_command'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/lib/thin/runner.rb:156:in `run!'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/bin/thin:6:in `<top (required)>'
+	from /usr/local/bin/thin:23:in `load'
+	from /usr/local/bin/thin:23:in `<main>'
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+Exiting!
+/var/lib/gems/1.9.1/gems/eventmachine-1.0.8/lib/eventmachine.rb:534:in `start_tcp_server': no acceptor (port is in use or requires root privileges) (RuntimeError)
+	from /var/lib/gems/1.9.1/gems/eventmachine-1.0.8/lib/eventmachine.rb:534:in `start_server'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/lib/thin/backends/tcp_server.rb:16:in `connect'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/lib/thin/backends/base.rb:63:in `block in start'
+	from /var/lib/gems/1.9.1/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `call'
+	from /var/lib/gems/1.9.1/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run_machine'
+	from /var/lib/gems/1.9.1/gems/eventmachine-1.0.8/lib/eventmachine.rb:193:in `run'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/lib/thin/backends/base.rb:73:in `start'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/lib/thin/server.rb:162:in `start'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/lib/thin/controllers/controller.rb:87:in `start'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/lib/thin/runner.rb:200:in `run_command'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/lib/thin/runner.rb:156:in `run!'
+	from /var/lib/gems/1.9.1/gems/thin-1.6.4/bin/thin:6:in `<top (required)>'
+	from /usr/local/bin/thin:23:in `load'
+	from /usr/local/bin/thin:23:in `<main>'
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+192.168.0.102 - - [07/Feb/2016 21:36:47] "GET /sample HTTP/1.1" 200 3854 0.0515
+192.168.0.102 - - [07/Feb/2016 21:37:01] "GET /views/text.html HTTP/1.1" 200 175 0.0054
+192.168.0.102 - - [07/Feb/2016 21:37:01] "GET /views/meter.html HTTP/1.1" 200 352 0.0054
+192.168.0.102 - - [07/Feb/2016 21:37:01] "GET /views/graph.html HTTP/1.1" 200 167 0.0054
+192.168.0.102 - - [07/Feb/2016 21:37:01] "GET /views/number.html HTTP/1.1" 200 343 0.0051
+Waiting for 5 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+192.168.0.102 - - [07/Feb/2016 21:42:50] "GET /events HTTP/1.1" 200 - 305.5052
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+192.168.0.102 - - [07/Feb/2016 23:57:19] "GET /sample HTTP/1.1" 200 3962 0.0441
+192.168.0.102 - - [07/Feb/2016 23:57:35] "GET /favicon.ico HTTP/1.1" 200 5430 0.0052
+[33mFor the twitter widget to work, you need to put in your twitter API keys in the jobs/twitter.rb file.[0m
+Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Exiting!
