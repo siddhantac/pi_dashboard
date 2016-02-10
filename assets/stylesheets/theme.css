@@ -1,3 +1,26 @@
 .redtext{
 	color: blue;
 }
+
+
+.page-title {
+	height: 80px;
+	width: 100%;
+	display: inline-block;
+	line-height: 80px;
+	font-size: 30px;
+}
+
+
+.server-unknown {
+	background-color: #FF7043;
+}
+
+.card {
+	margin: 0;
+}
+
+
+.row-margin-top.card {
+	margin-top: 70px;
+}
