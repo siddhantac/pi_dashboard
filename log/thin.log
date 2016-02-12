@@ -234,3 +234,54 @@ Writing PID to tmp/pids/thin.pid
 Thin web server (v1.6.4 codename Gob Bluth)
 Maximum connections set to 1024
 Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.0.103 - - [10/Feb/2016 22:50:46] "GET /sample HTTP/1.1" 200 4418 0.0334
+192.168.0.103 - - [10/Feb/2016 22:50:46] "GET /events HTTP/1.1" 200 - 46.0927
+192.168.0.103 - - [10/Feb/2016 22:51:14] "GET /views/meter.html HTTP/1.1" 200 352 0.0068
+192.168.0.103 - - [10/Feb/2016 22:51:14] "GET /views/text.html HTTP/1.1" 200 175 0.0061
+192.168.0.103 - - [10/Feb/2016 22:51:14] "GET /views/graph.html HTTP/1.1" 200 167 0.0080
+192.168.0.103 - - [10/Feb/2016 22:51:14] "GET /views/number.html HTTP/1.1" 200 343 0.0067
+192.168.0.103 - - [10/Feb/2016 22:52:28] "GET /sample HTTP/1.1" 200 4418 0.0459
+192.168.0.103 - - [10/Feb/2016 22:52:28] "GET /events HTTP/1.1" 200 - 73.6626
+192.168.0.103 - - [10/Feb/2016 22:52:29] "GET /views/text.html HTTP/1.1" 200 175 0.0052
+192.168.0.103 - - [10/Feb/2016 22:52:29] "GET /views/meter.html HTTP/1.1" 200 352 0.0046
+192.168.0.103 - - [10/Feb/2016 22:52:29] "GET /views/graph.html HTTP/1.1" 200 167 0.0049
+192.168.0.103 - - [10/Feb/2016 22:52:29] "GET /views/number.html HTTP/1.1" 200 343 0.0045
+192.168.0.103 - - [10/Feb/2016 23:31:28] "GET /events HTTP/1.1" 200 - 2339.2053
+192.168.0.103 - - [10/Feb/2016 23:55:47] "GET /events HTTP/1.1" 200 - 1466.9203
+192.168.0.105 - - [11/Feb/2016 08:24:31] "GET /sample HTTP/1.1" 200 4418 0.0771
+192.168.0.105 - - [11/Feb/2016 08:24:33] "GET /views/text.html HTTP/1.1" 200 175 0.0065
+192.168.0.105 - - [11/Feb/2016 08:24:33] "GET /views/meter.html HTTP/1.1" 200 352 0.0060
+192.168.0.105 - - [11/Feb/2016 08:24:33] "GET /views/graph.html HTTP/1.1" 200 167 0.0060
+192.168.0.105 - - [11/Feb/2016 08:24:33] "GET /views/number.html HTTP/1.1" 200 343 0.0091
+192.168.0.105 - - [11/Feb/2016 08:24:37] "GET /sample HTTP/1.1" 200 4418 0.0454
+192.168.0.105 - - [11/Feb/2016 08:24:37] "GET /events HTTP/1.1" 200 - 4.5477
+192.168.0.105 - - [11/Feb/2016 08:24:38] "GET /views/text.html HTTP/1.1" 200 175 0.0049
+192.168.0.105 - - [11/Feb/2016 08:24:39] "GET /views/meter.html HTTP/1.1" 200 352 0.0049
+192.168.0.105 - - [11/Feb/2016 08:24:39] "GET /views/graph.html HTTP/1.1" 200 167 0.0045
+192.168.0.105 - - [11/Feb/2016 08:24:39] "GET /views/number.html HTTP/1.1" 200 343 0.0045
+192.168.0.105 - - [11/Feb/2016 08:25:54] "GET /events HTTP/1.1" 200 - 76.0753
+Exiting!
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.0.103 - - [12/Feb/2016 21:14:51] "GET / HTTP/1.1" 302 - 0.0227
+192.168.0.103 - - [12/Feb/2016 21:14:51] "GET /sample HTTP/1.1" 200 4418 0.0362
+192.168.0.103 - - [12/Feb/2016 21:15:06] "GET /views/text.html HTTP/1.1" 200 175 0.0071
+192.168.0.103 - - [12/Feb/2016 21:15:06] "GET /views/meter.html HTTP/1.1" 200 352 0.0061
+192.168.0.103 - - [12/Feb/2016 21:15:06] "GET /views/graph.html HTTP/1.1" 200 167 0.0070
+192.168.0.103 - - [12/Feb/2016 21:15:06] "GET /views/number.html HTTP/1.1" 200 343 0.0106
+Waiting for 4 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+Writing PID to tmp/pids/thin.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+192.168.0.103 - - [12/Feb/2016 22:48:22] "GET / HTTP/1.1" 302 - 0.0241
+192.168.0.103 - - [12/Feb/2016 22:48:23] "GET /sample HTTP/1.1" 200 4418 0.0364
+192.168.0.103 - - [12/Feb/2016 22:48:38] "GET /views/text.html HTTP/1.1" 200 175 0.0072
+192.168.0.103 - - [12/Feb/2016 22:48:38] "GET /views/meter.html HTTP/1.1" 200 352 0.0076
+192.168.0.103 - - [12/Feb/2016 22:48:38] "GET /views/number.html HTTP/1.1" 200 343 0.0060
+192.168.0.103 - - [12/Feb/2016 22:48:38] "GET /views/graph.html HTTP/1.1" 200 167 0.0060
+192.168.0.103 - - [12/Feb/2016 22:57:21] "GET /events HTTP/1.1" 200 - 523.7667
+192.168.0.103 - - [12/Feb/2016 22:58:16] "GET /events HTTP/1.1" 200 - 120.0023
+192.168.0.103 - - [12/Feb/2016 23:29:51] "GET /events HTTP/1.1" 200 - 1950.0468
