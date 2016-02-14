@@ -24,3 +24,14 @@
 .row-margin-top.card {
 	margin-top: 70px;
 }
+
+.fill-parent {
+	display: block;
+	height: inherit;
+	width: inherit;
+}
+
+.fill-parent > div{
+	height: inherit;
+	width: inherit;	
+}
